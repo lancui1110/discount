@@ -1,0 +1,52 @@
+@inputH: 32px;
+.saler-box {
+  position: relative;
+  width: 100%;
+  color: #333;
+  // background: url(../../assets/img/bg0.jpg) no-repeat 0 0;
+  background: url(../../assets/img/bg1.jpg) no-repeat 0 0;
+  background-size: 100% auto;
+  opacity: 0.9;
+  .bg-img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .saler-info {
+    margin: 40px 10%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    dt {
+      display: inline-block;
+      margin-right: 10px;
+      font-weight: normal;
+      color: #716868;
+    }
+    dd {
+      display: inline-block;
+    }
+    .product-url {
+      width: 500px;
+      height: @inputH;
+      border-radius: 4px;
+      border: 0;
+      padding: 5px 10px;
+    }
+    .add-button {
+      display: inline-block;
+      width: 100px;
+      height: @inputH;
+      line-height: @inputH;
+      background: #f44336;
+      text-align: center;
+      color: #fff;
+      border-radius: 4px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}
